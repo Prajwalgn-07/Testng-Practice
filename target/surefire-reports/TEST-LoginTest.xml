@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="LoginTest" time="28.369" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="LoginTest" time="54.043" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="/Users/prajwal/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver"/>
@@ -14,10 +14,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/prajwal/Desktop/testvagrant /assignment projects/Testng-Practice/target/surefire/surefirebooter17093220067069635274.jar /Users/prajwal/Desktop/testvagrant /assignment projects/Testng-Practice/target/surefire 2021-07-13T23-15-58_658-jvmRun1 surefire4433623079513637299tmp surefire_07538070962597696419tmp"/>
+    <property name="sun.java.command" value="/Users/prajwal/Desktop/testvagrant /assignment projects/Testng-Practice/target/surefire/surefirebooter8888197975122475552.jar /Users/prajwal/Desktop/testvagrant /assignment projects/Testng-Practice/target/surefire 2021-07-14T10-22-57_894-jvmRun1 surefire17310009278514477004tmp surefire_05361601670649339509tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="LoginTest"/>
     <property name="surefire.test.class.path" value="/Users/prajwal/Desktop/testvagrant /assignment projects/Testng-Practice/target/test-classes:/Users/prajwal/Desktop/testvagrant /assignment projects/Testng-Practice/target/classes:/Users/prajwal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/prajwal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/prajwal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/prajwal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/prajwal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/prajwal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/prajwal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/prajwal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/prajwal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/prajwal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/prajwal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/prajwal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/prajwal/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/prajwal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/prajwal/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/prajwal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/prajwal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/prajwal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/prajwal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/prajwal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/prajwal/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.3/webdrivermanager-4.4.3.jar:/Users/prajwal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/prajwal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/prajwal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/prajwal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/prajwal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/prajwal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/prajwal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/prajwal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/prajwal/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/prajwal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/prajwal/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/prajwal/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/prajwal/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/prajwal/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/prajwal"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/prajwal/Desktop/testvagrant /assignment projects/Testng-Practice/target/surefire/surefirebooter17093220067069635274.jar"/>
+    <property name="surefire.real.class.path" value="/Users/prajwal/Desktop/testvagrant /assignment projects/Testng-Practice/target/surefire/surefirebooter8888197975122475552.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17+0"/>
@@ -58,27 +57,36 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="loginTest[abc@gmail.com, 12344](1)" classname="LoginTest" time="10.43">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Dashboard&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;PRAJWALs-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:7d:50f0:d8fb:e411%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/v8/zy06txrn0p1...}, goog:chromeOptions: {debuggerAddress: localhost:61364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0c823766b98cafb72f10a4280d7d82b9&#10;*** Element info: {Using=link text, value=Dashboard}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="loginTest[abc@gmail.com, 12344](1)" classname="LoginTest" time="10.61">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Dashboard&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;PRAJWALs-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:7d:50f0:d8fb:e411%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/v8/zy06txrn0p1...}, goog:chromeOptions: {debuggerAddress: localhost:55057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e7547821004a1f6fe890481a0f5f59a4&#10;*** Element info: {Using=link text, value=Dashboard}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"link text","selector":"Dashboard"}
   (Session info: chrome=91.0.4472.114)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRAJWALs-MacBook-Pro.local', ip: 'fe80:0:0:0:7d:50f0:d8fb:e411%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.4', java.version: '17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/v8/zy06txrn0p1...}, goog:chromeOptions: {debuggerAddress: localhost:61364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0c823766b98cafb72f10a4280d7d82b9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/v8/zy06txrn0p1...}, goog:chromeOptions: {debuggerAddress: localhost:55057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7547821004a1f6fe890481a0f5f59a4
 *** Element info: {Using=link text, value=Dashboard}
-	at LoginTest.loginTest(LoginTest.java:37)
+	at LoginTest.loginTest(LoginTest.java:57)
 ]]></failure>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 26344
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 33182
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 13, 2021 11:16:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 14, 2021 10:23:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest[abcde.fghi@gmail.com, Pg2451999845#0](2)" classname="LoginTest" time="9.408">
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 23092
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 14, 2021 10:23:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
